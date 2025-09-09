@@ -1,24 +1,24 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Demo01 from "./components/Demo01.vue";
+import Demo02 from "./components/Demo02.vue";
+import Demo03 from "./components/Demo03Img.vue";
 </script>
 
 <template>
   <div>
-    fabric
+    <!-- <Demo01></Demo01> -->
+    <!-- <Demo02></Demo02> -->
+    <Demo03></Demo03>
   </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 </style>
